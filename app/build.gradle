@@ -1,0 +1,28 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.manuel.appskey"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.manuel.appskey"
+        minSdk 23
+        // 30 fails to install on MiTV-AYFR0 with error -124 (resources.arsc alignment).
+        targetSdk 29
+        versionCode 6
+        versionName "6"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}

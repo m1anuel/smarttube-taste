@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartTube button</string>
+    <string name="desc">Opens SmartTube with the remote button whose icon is a square made of smaller squares.</string>
+</resources>
